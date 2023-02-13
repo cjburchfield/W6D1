@@ -25,6 +25,10 @@ ul li a, figcaption a {
 of the header element */
 header > img {
   width: 100px;
+  display: inline-block;
+}
+nav {
+  display: inline-block;
 }
 
 /* Selects all elements with the class attribute "ingredients-list" */
@@ -36,6 +40,17 @@ header > img {
 
 ol {
   list-style: upper-roman inside;
+}
+/*nav links */
+nav li {
+  display: inline-block;
+  padding: 20px;
+}
+
+a {
+  display: inline-block;
+  background: cornflowerblue;
+  padding: 20px;
 }
 
 .user_review h4 {
